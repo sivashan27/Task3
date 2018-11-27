@@ -1,0 +1,58 @@
+{
+  "Companyoperations": [
+    {
+      "id": 11,
+      "companyname": "Company Name1",
+      "operatingcountry": "India",
+      "business": "Consumer Banking"
+    },
+    {
+      "id": 1,
+      "companyname": "Barton Cervantes",
+      "operatingcountry": "USA",
+      "business": "Retail Brokerage"
+    },
+    {
+      "id": 2,
+      "companyname": "Conley Aguirre1 testing",
+      "operatingcountry": "India",
+      "business": "Wealth Management",
+      "Address": "Wealth Management"
+    },
+    {
+      "id": 99,
+      "companyname": "New Company",
+      "operatingcountry": "India",
+      "business": "Consumer Banking",
+      "customFields": null
+    },
+    {
+      "id": 32,
+      "companyname": "New Company",
+      "operatingcountry": "India",
+      "business": "Consumer Banking",
+      "customFields": null
+    },
+    {
+      "id": 90,
+      "companyname": "New Company",
+      "operatingcountry": "India",
+      "business": "Summa",
+      "customFields": null
+    },
+    {
+      "id": 51,
+      "companyname": "Sample Company",
+      "operatingcountry": "India",
+      "business": "Summa",
+      "customFields": null
+    },
+    {
+      "id": 15,
+      "companyname": "New Company",
+      "operatingcountry": "India",
+      "business": "Summa",
+      "customFields": "tableNo"
+    }
+  ]
+}

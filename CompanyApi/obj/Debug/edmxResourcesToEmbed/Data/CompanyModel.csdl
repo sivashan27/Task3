@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="ComanyId" />
+    </Key>
+    <Property Name="ComanyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" MaxLength="200" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Address1" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Address2" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="ContactName" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="ContactPhone" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="ContactEmail" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="CompanyEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Companies" EntityType="Self.Company" />
+  </EntityContainer>
+</Schema>

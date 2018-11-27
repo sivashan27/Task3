@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "companyname": "Adrian Riggs",
+    "operatingcountry": "usa",
+    "business": "Sales"
+  },
+  {
+    "id": 1,
+    "companyname": "Barton Cervantes",
+    "operatingcountry": "uk",
+    "business": "IT Marketing"
+  },
+  {
+    "id": 2,
+    "companyname": "Conley Aguirre",
+    "operatingcountry": "india",
+    "business": "Software product selling"
+  }
+]

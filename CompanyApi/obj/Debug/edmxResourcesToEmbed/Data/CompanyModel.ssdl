@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="ComanyId" />
+    </Key>
+    <Property Name="ComanyId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompanyName" Type="nchar" MaxLength="200" Nullable="false" />
+    <Property Name="Address1" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="Address2" Type="nchar" MaxLength="100" />
+    <Property Name="City" Type="nchar" MaxLength="100" />
+    <Property Name="PostalCode" Type="nchar" MaxLength="10" />
+    <Property Name="ContactName" Type="nchar" MaxLength="100" />
+    <Property Name="ContactPhone" Type="nchar" MaxLength="30" />
+    <Property Name="ContactEmail" Type="nchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="CompanyModelStoreContainer">
+    <EntitySet Name="Company" EntityType="Self.Company" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
